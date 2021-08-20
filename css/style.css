@@ -166,18 +166,19 @@ html {
   line-height: 2.5rem;
   text-align: justify; }
 
-.home button {
-  margin-top: 2rem;
-  padding: .3rem 3rem;
-  border-radius: 4.5rem;
-  border: 2px solid #fbc531;
-  background-color: transparent; }
+.link {
+  font-size: 2.8rem;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
-.home button a {
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
-  font-weight: 600; }
+.link i {
+  padding: 0 10px;
+  color: #3b444b; }
+
+.link i:hover {
+  color: crimson; }
 
 #about {
   height: 100vh;
@@ -512,26 +513,3 @@ video {
   font-size: 2rem;
   line-height: 2.5rem;
   break-inside: auto; }
-
-#footer {
-  text-align: center;
-  background-color: #1e272e;
-  padding-top: 25px;
-  padding-bottom: 25px; }
-
-.footer p {
-  font-size: 1.7rem;
-  padding-top: 7px; }
-
-.footer a {
-  padding: 0 10px;
-  font-size: 2rem; }
-
-.footer a i {
-  padding: 5px;
-  font-size: 4rem;
-  color: #006266;
-  transition: .5s all; }
-
-.footer a:hover i {
-  color: crimson; }
